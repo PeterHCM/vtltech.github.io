@@ -1,0 +1,3 @@
+if (!location.pathname.includes('index.html')) {
+    location.href = '/';
+}
